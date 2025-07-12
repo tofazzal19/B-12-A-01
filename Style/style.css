@@ -5,9 +5,9 @@
     font-family: 'Arial', sans-serif;
 }
 
-h1{
+h1, h2 {
     color: #1a1a1a;
-}
+} 
 
 .btn{
 
@@ -40,4 +40,43 @@ h1{
     font-size: 20px;
     font-weight: bold;
     color: #4b47fa;
+}
+/* Action Section CSS */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    max-width: 100px;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+.action-section img {
+    width: 45px;
+    border-radius: 20px;
+}
+
+.action-text {
+    width: 50px;
+}
+/* stats section css */
+.stats {
+    background: #e7eaff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.stats-numbers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+/* Body css */
+
+body {
+    background: #f7f9ff;
+    color: #1a1a1a;
+    line-height: 1.6;
 }
