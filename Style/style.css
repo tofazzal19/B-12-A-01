@@ -75,7 +75,7 @@ h1, h2, h3 {
 .action-text {
   width: 50%;
 }
-
+/* Stats Section */
 .stats {
   background: #e7eaff;
   padding: 40px 20px;
@@ -93,7 +93,7 @@ h1, h2, h3 {
   font-size: 28px;
   color: #4b47fa;
 }
-
+/* Testimonials section css */
 .testimonials {
   padding: 60px 20px;
   text-align: center;
@@ -106,6 +106,7 @@ h1, h2, h3 {
   margin-top: 30px;
 }
 
+/* Card section css */
 .card {
   background: white;
   padding: 20px;
@@ -122,7 +123,7 @@ h1, h2, h3 {
   font-weight: bold;
   margin-top: 10px;
 }
-/* Card section css */
+/* Contact section css */
 .contact {
   display: flex;
   justify-content: space-between;
